@@ -7,4 +7,4 @@ def total_cost(d,c,n):
 
 
 #Invoke the function with three intergers: cost(dollars and cents) & number of cupcakes.
-print(total_cost(15,22,4))
+print(total_cost(45,33,33 ))

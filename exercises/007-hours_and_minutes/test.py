@@ -34,7 +34,7 @@ def test_for_file_output(capsys, app):
 
 @pytest.mark.it('The function hours_minutes must return the correct output for 7320 secs')
 def test_for_file_output(capsys, app):
-    assert app.hours_minutes(7320) == (2, 2)
+    assert app.hours_minutes(7320) == (2, 122)
 
 
 

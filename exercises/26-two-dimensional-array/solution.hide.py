@@ -1,5 +1,6 @@
 def two_dimensional_array(nList, nElements):
     dimensions=[int(x) for x in "{},{}".format(nList,nElements).split(',')]
+    print("esto es dimencions",dimensions)
     rowNum=dimensions[0]
     colNum=dimensions[1]
     multilist = [[0 for col in range(colNum)] for row in range(rowNum)]
