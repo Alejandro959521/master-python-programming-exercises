@@ -3,7 +3,7 @@ class String_mayus:
         self.input_string = ""
     def string(self):
         self.input_string = input("ingresa un string:")
-    def print(self):
+    def print(self): 
         print("letra en mayuscula:",self.input_string.upper()) 
 
 

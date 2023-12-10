@@ -2,6 +2,7 @@ import math
 def compute_robot_distance(props):
     pos = [0,0]
     new_prop = props.split(" ")
+    print(new_prop)
     for x in range(len(new_prop)):
         if new_prop[x].upper() == 'UP':
             pos[0]+=int(new_prop[x+1])
